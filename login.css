@@ -1,0 +1,59 @@
+html,
+body {
+    background-color: #333;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./image/blue-blackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgb(0 0 0 / 50%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.form-input {
+    width: 400px;
+    background-color: transparent;
+    padding: 16px 0px;
+    border: none;
+    border-bottom: 1px solid #b3b3b3;
+    color: #f7f7f7;
+    outline: none;
+}
+
+.form-input::-webkit-input-placeholder {
+    color: #b3b3b3;
+}
+
+.form-input:-moz-placeholder {
+    color: #b3b3b3;
+}
+
+.form-input::-moz-placeholder {
+    color: #b3b3b3;
+}
+
+.form-input:-ms-input-placeholder {
+    color: #b3b3b3;
+}
