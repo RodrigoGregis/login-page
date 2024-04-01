@@ -10,10 +10,23 @@
 
 <body class="no-margin">
     <form>
-        <input class="form-input" type="text" placeholder="E-mail">
-        <input class="form-input" type="password" placeholder="Password">
+        <label for="email_id">E-mail</label>
+        <input id="email_id" class="form-input" type="text" placeholder="E-mail" />
+
+        <label>
+            Senha
+            <br />
+            <input class="form-input" type="password" placeholder="Password" />
+        </label>
+
+
+
         <div>
-            <input class="no-margin" type="checkbox">
+            <label class="label-checkbox">
+                <span class="fake-checkbox"></span>
+                Remenber me
+                <input class="no-margin input-checkbox" type="checkbox" />
+            </label>
             <button>Login</button>
         </div>
     </form>

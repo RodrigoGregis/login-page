@@ -57,3 +57,18 @@ div {
 .form-input:-ms-input-placeholder {
     color: #b3b3b3;
 }
+
+.input-checkbox {
+    /* display: none; */
+}
+
+.label-checkbox {
+    color: #b3b3b3;
+}
+
+.fake-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #b3b3b3;
+    display: inline-block;
+}
