@@ -59,16 +59,37 @@ div {
 }
 
 .input-checkbox {
-    /* display: none; */
+    display: none;
+}
+
+/* 
+Para consultar os tipos de seletores, verificar a documentação:
+https://www.w3schools.com/cssref/css_selectors.php 
+*/
+
+.input-checkbox:checked~.fake-checkbox .check {
+    display: block;
 }
 
 .label-checkbox {
     color: #b3b3b3;
+    display: flex;
+    user-select: none;
 }
 
 .fake-checkbox {
     width: 16px;
     height: 16px;
     border: 1px solid #b3b3b3;
-    display: inline-block;
+    border-radius: 4px;
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.check {
+    display: none;
 }
