@@ -12,7 +12,7 @@
     <form>
         <input id="email_id" class="form-input" type="text" placeholder="E-mail" />
         <input class="form-input" type="password" placeholder="Password" />
-        <div>
+        <div class="button-wrapper">
             <label class="label-checkbox">
                 <input class="no-margin input-checkbox" type="checkbox" />
                 <span class="fake-checkbox">
@@ -20,9 +20,12 @@
                 </span>
                 Remenber me
             </label>
-            <button>Login</button>
+            <button id="submit-form" class="login-button">Login</button>
         </div>
     </form>
+
+    <!-- Importação do javascript sempre no final do body (para não travar o loading do HTML e CSS). -->
+    <script src="script.js"></script>
 </body>
 
 </html>
