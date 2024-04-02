@@ -22,10 +22,11 @@ form {
     gap: 24px;
 }
 
-div {
+.button-wrapper {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 24px;
 }
 
 .no-margin {
@@ -75,6 +76,7 @@ https://www.w3schools.com/cssref/css_selectors.php
     color: #b3b3b3;
     display: flex;
     user-select: none;
+    cursor: pointer;
 }
 
 .fake-checkbox {
@@ -92,4 +94,21 @@ https://www.w3schools.com/cssref/css_selectors.php
 
 .check {
     display: none;
+    color: #f7f7f7;
+}
+
+.login-button {
+    background-color: #0371e5;
+    color: #f7f7f7;
+    border-radius: 4px;
+    padding: 16px 56px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.login-button:hover {
+    background-color: #0462c5;
 }
