@@ -1,3 +1,6 @@
+﻿/* Importação da fonte Roboto do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html,
 body {
     background-color: #333;
@@ -9,14 +12,16 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url('./image/blue-blackground.png');
+    background-image: url('./image/wood-backgrond.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color;
     background-color: rgb(0 0 0 / 50%);
+    font-family: "Roboto", sans-serif;
+    flex-direction: column;
 }
 
-form {
+.login {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -41,6 +46,8 @@ form {
     border-bottom: 1px solid #b3b3b3;
     color: #f7f7f7;
     outline: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 .form-input::-webkit-input-placeholder {
@@ -107,8 +114,28 @@ https://www.w3schools.com/cssref/css_selectors.php
     font-size: 14px;
     cursor: pointer;
     transition: .4s;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 .login-button:hover {
     background-color: #0462c5;
+}
+
+.container {
+    background-color: rgb(0 0 0 / 40%);
+    padding: 48px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 8px #080808;
+}
+
+.title {
+    font-size: 48px;
+    color: #f7f7f7;
+    margin-bottom: 48px;
+    margin-top: 0px;
+}
+
+.footer {
+    margin-top: 48px;
 }

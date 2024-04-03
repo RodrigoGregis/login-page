@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
@@ -9,22 +9,34 @@
 </head>
 
 <body class="no-margin">
-    <form>
-        <input id="email_id" class="form-input" type="text" placeholder="E-mail" />
-        <input class="form-input" type="password" placeholder="Password" />
-        <div class="button-wrapper">
-            <label class="label-checkbox">
-                <input class="no-margin input-checkbox" type="checkbox" />
-                <span class="fake-checkbox">
-                    <span class="check">&check;</span>
-                </span>
-                Remenber me
-            </label>
-            <button id="submit-form" class="login-button">Login</button>
-        </div>
-    </form>
+    <div class="container">
+        <h1 class="title">Login</h1>
+        <form class="login">
+            <input id="email_id" class="form-input" type="text" placeholder="E-mail" />
+            <input class="form-input" type="password" placeholder="Password" />
+            <div class="button-wrapper">
+                <label class="label-checkbox">
+                    <input class="no-margin input-checkbox" type="checkbox" />
+                    <span class="fake-checkbox">
+                        <span class="check">&check;</span>
+                    </span>
+                    Remenber me
+                </label>
+                <button id="submit-form" class="login-button">Continue</button>
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <a href="https://github.com/RodrigoGregis/login-page" target="_blank"
+            title="Veja o repositório deste projeto no GitHub.">
+            <img src="./image/github-icon.png" alt="GitHub" />
+        </a>
+    </footer>
 
-    <!-- Importação do javascript sempre no final do body (para não travar o loading do HTML e CSS). -->
+    <!-- 
+        Importação do javascript sempre no final do body 
+        (para não travar o loading do HTML e CSS). 
+    -->
     <script src="script.js"></script>
 </body>
 
