@@ -25,6 +25,7 @@ body {
     padding: 0px 24px;
 }
 
+/* CSS: Ref #02 */
 .login {
     display: flex;
     flex-direction: column;
