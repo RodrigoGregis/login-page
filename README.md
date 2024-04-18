@@ -91,3 +91,16 @@ Exemplos:
 ou
 
 > flex-direction: row;
+
+---
+### Atualizações
+
+Foi alterada a forma de como é feita a prevenção de envio do formulário. 
+
+Anteriormente foi utilizado o JavaScript. Agora é utilizado o **type="button"** no botão que está dentro do furmulário.
+
+#### Motivo
+
+Cada botão dentro de um **form** (formulário) possui, implicitamente, o **type="submit"**. Isso faz com que, ao clicar no botão, seja disparado as ações padrão do formulário.
+
+Para evitar que seja disparado essas ações do furmulário podemos adicionar o **type="button"** no botão (**button**) que está dentro do furmulário.
